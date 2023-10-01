@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1 id="head" class="titulo">CSS Externo</h1>
+    </div>
+    <hr id="line">
+    <br>
+    <h2 class="titulo">EXAMPLE</h2>
+    <p class="example_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+        been
+        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+        electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+        PageMaker including versions of Lorem Ipsum.</p><br>
+    <h3 id="list_title" class="titulo">LIST</h3>
+    <ul style="color: #CC998D;">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+    <br>
+    <h3 class="titulo">ANOTHER EXAMPLE</h3>
+    <p class="example_text"">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+        electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+        PageMaker including versions of Lorem Ipsum.</p><br>
+
+
+    <!--Se o arquivo .css não estiver especificando o destino de cada mooficicação,
+    todas as tags vão sofrer as alterações escritas no código.
+    Para isso, existem os identificadores CLASS e ID. Com eles é possível
+    direcionar um comando para uma tag atribuída com esses identificadores.
+            Para atribuir uma ID - ex.:
+                <p id=" lorem_ipsum">Lorem Ipsum</p>
+    Para utilizar uma ID:
+    #lorem_ipsum
+    Para atribuir uma CLASS - ex.:
+    <p class="lorem_ipsum">Lorem Ipsum</p>
+    Para utilizar uma CLASS:
+    .lorem_ipsum
+    A diferença entre cada uma dá-se pela utilização. O ID é uma forma de
+    identificação exclusiva, equanto o CLASS pode ser usado em várias tags
+    diferentes com o intuito de aplicar as mesmas modificações em paralelo.
+    -->
+
+
+    <!--Cores - o comando color pode ser usado de 3 maneiras: 
+    1 - Digitando o nome da cor. ex.:
+        color: red;
+    2 - Utilizando o RGB ou RGBA. ex.:
+        color: rgb(255,255,255);
+        color: rgba(255,255,255,1);
+            O ultimo valor do rgba significa Alpha, ou seja, opacidade. Definirá
+            o quão transparente a tag designada vai se tornar em relação ao fundo.
+            Os valores variam de 0 a 1.
+    3- Utilizando valores hexadecimais. ex.:
+        color: #23B5D3;
+            É definitivamente a melhor maneira de especificar uma cor pois existem
+            diversos geradores de cores que disponibilizam seu código hexadecimal.
+    -->
+
+
+    <!--DIVs - comando para agrupar elementos -->
+
+    <div id="cm"></div>
+    <div id="mm">
+        <p>milímetros</p>
+    </div><br>
+    <div id="px"></div><br>
+    <div id="in"></div><br>
+    <div id="pt"></div><br>
+    <div id="pc"></div><br>
+
+
+
+    <div class="outside">
+        Lorem Ipsum
+        <div class="container">
+            Lorem Ipsum
+            <div class="inside">Lorem Ipsum</div>
+        </div>
+    </div>
+    <div class="second">Lorem Ipsum</div>
+    <br>
+    
+    
+    <div class="box_outside">
+        <div class="box_inside"></div>
+        </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

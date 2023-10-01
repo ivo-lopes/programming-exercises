@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	background-color: #3A3335;
+}
+header{
+	max-width: 1400px;
+ 	margin: auto;
+	height: 50px;
+	background-color: #F0544F;
+	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+}
+ .header-logo{
+ 	font-size: 25px;
+ 	font-weight: bold;
+ 	color: #3A3335;
+ 	background-color: #FDF0D5;
+ 	padding-right: 5px;
+ 	padding-left: 5px;
+ 	border-radius: 8px;
+ }
+
+.container{
+	position: relative;
+	max-width: 1400px;
+	margin: auto;
+	background-image: url(./images/background.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	padding-bottom: 400px;
+}
+
+ .formContainer{
+ 	position: absolute;
+ 	max-width: 250px;
+ 	background-color: #C6D8D3BB;
+ 	padding: 20px;
+ 	top: 150px;
+ 	right: 200px;
+ 	border-radius: 10px;
+ }
+
+ .mb{
+ 	margin-bottom: 15px;
+ }
+
+ h2{
+ 	font-size: 20px;
+ }
+
+input, select{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	border: none;
+	margin-bottom: 10px;
+}
+
+input[type="submit"]{
+	color: #FDF0D5;
+	background-color: #F0544F;
+	font-weight: bold;
+}
+
+section{
+	padding: 200px;
+}
+
+footer{
+	max-width: 1400px;
+	margin: auto;
+	color: white;
+	background-color: #F0544F;
+	display: flex;
+	justify-content: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+li{
+	list-style: none;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+
+.foto{
+	border: solid 3px #3A3335;
+	height: 240px;
+	width: 168.75px;
+	object-fit: cover;
+}
+
+.descricao{
+	display: inline-block;
+	max-width: 50%;
+	background-color: #3A3335;
+}
+
+.descricao p, .descricao h2, .descicao ul{
+	margin: 20px;
+}

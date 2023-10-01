@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Align!</title>
+
+    <style>
+        body {
+            background-color: bisque;
+        }
+
+        img {
+            width: 300px;
+        }
+
+        .example {
+            background-color: cornflowerblue;
+            width: 300px;
+            height: 200px;
+            margin: auto;
+        }
+
+        .scott1 {
+            display: block;
+            margin: auto;
+        }
+
+        .scott2 {
+            text-align: center;
+            /* como a imagem está inserida numa 'div', o programa entende que ela é um texto, 
+            fentão é possível mudar seu posicionamento com o 'text-align'.*/
+        }
+
+        .container {
+            background-color: aquamarine;
+            width: 300px;
+            height: 200px;
+            margin: auto;
+        }
+
+        .yscott {
+            text-align: center;
+        }
+
+        .scott3 {
+            width: 150px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="example"></div>
+    <br>
+    <img class="scott1" src="./scott.jpg">
+    <br><br>
+    <div class="scott2"><img src="./scott.jpg"></div>
+    <br><br>
+
+
+    <!-- Tentei centralizar a imagem dentro da div horizontalmente e verticalmente, mas não consegui. -->
+
+    <div class="container">
+        <div class="yscott">
+            <img class="scott3" src="./scott.jpg">
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            max-width: 400px;
+            border: 2px solid black;
+            margin: 0;
+            display: flex;
+            margin-bottom: 50px;
+        }
+
+        .item {
+            background-color: blueviolet;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        .flex-start {
+            justify-content: flex-start;
+        }
+
+        .flex-end {
+            justify-content: flex-end;
+        }
+
+        .center {
+            justify-content: center;
+        }
+
+        .space-between {
+            justify-content: space-between;
+        }
+
+        .space-around {
+            justify-content: space-around;
+        }
+
+        .column{
+            flex-direction: column;
+        }
+
+        .row-reverse{
+            flex-direction: row-reverse;
+        }
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <h1>flex-start</h1>
+    <section class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </section>
+    <h1>flex-end</h1>
+    <section class="container flex-end">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </section>
+    <h1>center</h1>
+    <section class="container center">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </section>
+    <h1>space-between</h1>
+    <section class="container space-between">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </section>
+    <h1>space-around</h1>
+    <section class="container space-around">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </section>
+
+    <br><br><br><p>----------------------------------------------------------------------------------</p><br><br><br>
+
+    <h1>flex-start</h1>
+    <section class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </section>
+    <h1>flex-end</h1>
+    <section class="container flex-end ">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </section>
+    <h1>center</h1>
+    <section class="container center">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </section>
+    <h1>space-between</h1>
+    <section class="container space-between">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </section>
+    <h1>space-around</h1>
+    <section class="container space-around">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </section>
+</body>
+
+</html>

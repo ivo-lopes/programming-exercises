@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            border: 2px solid black;
+            max-width: 400px;
+        }
+        .item{
+            background: brown;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .flex-1{
+            flex: 1;
+            /* grow = 1 ; shrink = 1 ; basis = 0 */
+        }
+        .flex-2{
+            flex: 2;
+            /* grow = 2 ; shrink = 1 ; basis = 0 */
+        }
+    </style>
+</head>
+<body>
+    <h2>Flex: 1</h2>
+    <div class="container">
+        <div class="item flex-1">A</div>
+        <div class="item flex-1">SSS</div>
+        <div class="item flex-1">CC</div>
+        <div class="item flex-1">D</div>
+        <div class="item flex-1">ZX</div>
+    </div>
+
+    <h2>Flex: mix (2,1,2,1,2)</h2>
+    <div class="container">
+        <div class="item flex-2">A</div>
+        <div class="item flex-1">SSS</div>
+        <div class="item flex-2">CC</div>
+        <div class="item flex-1">D</div>
+        <div class="item flex-2">ZX</div>
+    </div>
+    
+</body>
+</html>

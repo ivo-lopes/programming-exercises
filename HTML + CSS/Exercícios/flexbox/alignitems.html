@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            max-width: 250px;
+            min-height: px;
+            border: 2px solid black;
+            display: flex;
+            margin-bottom: 50px;
+        }
+
+        .item {
+            background-color: blueviolet;
+            margin: 5px;
+            color: white;
+            text-align: center;
+        }
+
+        .flex {
+            flex: 1;
+        }
+
+        .center {
+            align-items: center;
+        }
+
+        .stretch {
+            align-items: stretch;
+        }
+
+        .flex-start {
+            align-items: flex-start;
+        }
+
+        .flex-end {
+            align-items: flex-end;
+        }
+
+        .baseline {
+            align-items: baseline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>center</h1>
+    <section class="container flex center">
+        <div class="item">item A</div>
+        <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry</div>
+        <div class="item">ABC</div>
+    </section>
+
+    <h1>stretch</h1>
+    <section class="container flex stretch">
+        <div class="item">item A</div>
+        <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry</div>
+        <div class="item">ABC</div>
+    </section>
+
+    <h1>flex-start</h1>
+    <section class="container flex flex-start">
+        <div class="item">item A</div>
+        <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry</div>
+        <div class="item">ABC</div>
+    </section>
+
+    <h1>flex-end</h1>
+    <section class="container flex flex-end">
+        <div class="item">item A</div>
+        <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry</div>
+        <div class="item">ABC</div>
+    </section>
+
+    <h1>baseline</h1>
+    <section class="container flex baseline">
+        <div class="item">item A</div>
+        <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry</div>
+        <div class="item">ABC</div>
+    </section>
+
+
+
+
+
+</body>
+
+</html>

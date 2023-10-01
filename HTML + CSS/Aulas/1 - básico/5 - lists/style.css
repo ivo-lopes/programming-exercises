@@ -1,0 +1,56 @@
+body{
+    background-color: antiquewhite;
+}
+
+#title{
+    text-align: center;
+}
+
+ul{
+    list-style-type: circle;
+    margin: 0;
+    padding: 0;
+}
+
+ol{
+    list-style-type: lower-alpha;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    background-color: rgb(255, 241, 112);
+    border: solid 1px;
+    list-style-position: inside;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.list{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 42%;
+    margin-right: 42%;
+}
+
+
+
+
+/*  Tipos de estilo para listas não ordenadas:
+        'list-style-type:;'
+        'disc'
+        'circle'
+        'square'
+        'none'
+    Tipos de estulo para listas ordenadas:
+        'list-style-type:;'
+        'upper-roman'
+        'lower-roman'
+        'lower-alpha'
+        'upper-alpha'
+    Para inserir uma imagem de fundo para cada marcador:
+        'list-style-image: url("");'
+
+
+     */

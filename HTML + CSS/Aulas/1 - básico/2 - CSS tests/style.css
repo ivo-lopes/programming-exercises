@@ -1,0 +1,119 @@
+/*color palette:
+    #ECEBE4 (branco gesso)
+    #CC998D (salmão desbotado)
+    #16F4D0 (ciano meio mar)
+    #429EA6 (azul claro desbotado)
+    #153B50 (azul escuro desbotado)
+*/
+
+body{
+    background-color: #153B50;
+}
+.example_text{
+    color: #CC998D;
+    text-align: left;
+    width: 50%;
+}
+
+.titulo{
+    color: #ECEBE4;
+}
+
+#list_title{
+        text-align: left;
+        margin-left: 25px;
+}
+
+#head{
+    color: #ECEBE4;
+    background-image: url(images/mar.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding: 5px;
+    border-radius: 100px;
+    }
+    
+    /*Margin e Padding:
+        - O 'margin' remove o conteúdo de fora pra dentro, enquanto o 'padding' 
+        aumenta o elemento de dentro pra fora.*/
+
+
+/*UNIDADES DE MEDIDAS FIXAS:*/
+#cm{
+    background-color: #CC998D;
+    width: 1cm;
+    height: 1cm;
+}
+#mm{
+    background-color: #CC998D;
+    width: 18mm;
+    height: 5mm;
+}
+#px{
+    background-color: #CC998D;
+    width: 20px;
+    height: 20px;
+}
+#in{
+    background-color: #CC998D;
+    width: 1in;
+    height: 1in;
+}
+#pt{
+    background-color: #CC998D;
+    width: 10pt;
+    height: 10pt;
+}
+#pc{
+    background-color: #CC998D;
+    width: 1pc;
+    height: 1pc;
+}
+
+/*UNIDADES DE MEDIDAS VARIÁVEIS:
+    - O '%' ajusta o tamanho do elemento proporcionalmente ao elemento pai utilizando porcentagem;
+    - O 'em' ajusta o tamanho do elemento proporcionalmente ao elemento pai utilizando multiplicadores;
+    - O 'rem' ajusta o tamanho do elemento proporcionalmente ao elemento raiz utilizando multiplicadores;
+    - O 'vw' ajusta a largura do elemento proporcionalmente ao tamanho da janela utilizando porcentagem;
+    - O 'vh' ajusta a altura do elemento proporcionalmente ao tamanho da janela utilizando porcentagem;
+    - O 'vmin' ajusta de forma dinâmica as duas dimensões se baseando na menor dimensão da janela;
+    - O 'vmax' ajusta de forma dinâmica as duas dimensões se baseando na maior dimensão da janela.
+    */
+
+.container{
+    font-size: 1.5em;
+    background-color: #16F4D0;
+    width: 220px;
+}
+
+.inside{
+    font-size: 1.333em;
+    background-color: #ECEBE4;
+    width: 220px;
+}
+
+.outside{
+    font-size: 20px;
+    background-color:  #CC998D;
+    width: 220px;
+}
+.second{
+    font-size: 40px;
+    background-color: #CC998D;
+    width: 220px;
+}
+.box_outside{
+    background-color: #16F4D0;
+    width: 400px;
+    height: 400px;
+}
+.box_inside{
+    background-color: #ECEBE4;
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+}

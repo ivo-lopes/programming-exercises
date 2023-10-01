@@ -1,0 +1,97 @@
+#title{
+    text-align: center;
+    font-size: 20px;
+    background-color: darkcyan;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#square{
+    background-color: cadetblue;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: brown;
+    border-width: 20px;
+    border-radius: 20%;
+}
+
+#square2{
+    background-color: cadetblue;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: brown;
+    border-width: 20px;
+    border-radius: 100%;
+}
+
+#square3{
+    background-color: cadetblue;
+    width: 300px;
+    height: 300px;
+    border-style: dashed;
+    border-color: brown;
+    border-width: 20px;
+    border-radius: 100%;
+}
+
+#square4{
+    background-color: cadetblue;
+    width: 300px;
+    height: 300px;
+    border-style: dotted;
+    border-color: brown;
+    border-width: 20px;
+    border-radius: 100%;
+}
+
+#square5{
+    background-color: cadetblue;
+    width: 300px;
+    height: 300px;
+    border-style: double;
+    border-color: brown;
+    border-width: 20px;
+    border-radius: 100%;
+}
+
+#square6{
+    background-color: cadetblue;
+    width: 300px;
+    height: 300px;
+    border-style: groove;
+    border-color: brown;
+    border-width: 20px;
+    border-radius: 100%;
+}
+
+/* 'box-sizing'
+    ferramenta para mudar o tamanho relativo de uma box
+    ex.: */
+
+
+        #square7{
+            background-color: cadetblue;
+            width: 100px;
+            height: 100px;
+            border-style: solid;
+            border-color: brown;
+            border-width: 10px;
+        }
+    
+        #square8{
+            background-color: cadetblue;
+            width: 100px;
+            height: 100px;
+            border-style: solid;
+            border-color: brown;
+            border-width: 10px;
+            box-sizing: border-box;
+        }    
+
+        #square9{
+            background-color: cadetblue;
+            width: 100px;
+            height: 100px;
+        }    

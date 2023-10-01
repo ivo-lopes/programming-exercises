@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions!</title>
+
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+
+        .quadro {
+            background-color: darkgray;
+            width: 800px;
+            height: 600px;
+            border: solid 5px;
+            margin: auto;
+            position: relative;
+        }
+
+        .quadrado1 {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            position: relative;
+        }
+
+        .quadrado2 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            top: 400px;
+        }
+
+        .quadrado3 {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+        }
+
+        .quadrado4 {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            position: relative;
+            left: 700px;
+            bottom: 200px;
+        }
+
+        .quadro2 {
+            background-color: darkgray;
+            width: 800px;
+            height: 1600px;
+            border: solid 5px;
+            margin: auto;
+            position: static;
+        }
+
+        .quadrado5 {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            position: fixed;
+            bottom: 1px;
+            right: 1px;
+        }
+
+        .quadrado6 {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            position: absolute;
+            right: 1px;
+        }
+        .quadrado7 {
+            width: 80%;
+            height: 50px;
+            background-color: aquamarine;
+            position: fixed;
+            bottom: 5px;
+            border: solid 2px;
+            text-align: center;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="quadrado7">Aqui tem uma mensagem importante!</div>
+
+    <div class="quadro">
+        <div class="quadrado1"></div>
+        <div class="quadrado2"></div>
+        <div class="quadrado3"></div>
+        <div class="quadrado4"></div>
+    </div><br>
+    <div class="quadro2">
+        <div class="quadrado5"></div>
+        <div class="quadrado6"></div>
+    </div>
+
+    <!--Positions!
+
+        'position:static;' - mantém uma posição estática do elemento em relação aos outros elementos inseridos
+        dentro do mesmo elemento pai. Não é possível modificar a posição.
+
+        'position:relative;' - torna possível a mudança de posicionamento em relação ao posicionamento
+        original do elemento dentro do elemento pai e em relação aos outros elementos inseridos dentro dele.
+
+        'position:absolute;' - posição específica do elemento dentro de um elemento pai, desde que este não esteja
+        com uma posição estática. Acompanha o redimensionamento do elemento pai. (exemplo: quadrado3)
+
+        'position:fixed;' - posição específica do elemento em relação a viewport (ao que se vê na tela). Fica
+        sempre visível, ou seja, fixado na tela.
+
+        'position:sticky;' - posição específica do elemento em relação ao elemento pai. Fica sempre visível, mas 
+        não ignora a presença de outros elementos.
+        -->
+
+
+
+
+</body>
+
+</html>

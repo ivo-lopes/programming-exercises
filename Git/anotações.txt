@@ -1,0 +1,50 @@
+git status --> Verifica todos os arquivos e compara com os arquivos salvos em nuvem
+
+git init --> Inicia o git em uma pasta.
+
+git add "nomedoarquivo" --> Adiciona um arquivo ao controle de versão do git
+
+git add . --> Adiciona todos os arquivos pendentes para o controle de versão do git
+
+git commit --> Cria uma versão do código com todos os arquivos adicionados ao controle de versão, enviando todos esses arquivos para o repositório na nuvem do GitHub
+
+git commit -m "initial commit / mensagem que indica as mudanças feitas para essa versão"
+
+git push
+
+git remote add <nome> <url>
+
+git push --set-upstream origin master
+
+git reflog --> Exibe todas versões e suas respectivas mensagens
+
+git reset --hard <id mostrado no reflog> --> Para acessar diferentes versões
+
+
+
+
+BRANCHES --> São versões paralelas de um código usadas para desenvolver novas funcionalidades enquanto ainda estão instáveis. A versão principal se mantém com todas as funcionalidades estáveis até o momento.
+
+git branch <nome-staging> --> Cria uma branch com o nome inserido
+
+git branch --> Exibe todas as branches e a qua está sendo utilizada no momento
+
+git checkout <nome> --> Permite alterar a branch que está sendo utilizada no momento 
+
+git merge <branch> --> Vai mesclar a branch atual com a branch escolhida pelo usuário
+
+git pull --> traz as atualizações do servidor para a máquina
+
+
+===============================================
+Passo a passo para testar e aplicar novas funcionalidades para um código já no git:
+1 - git pull da branch principal
+2 - gerar uma nova branch a partir da branch principal
+3 - trabalhar e adicionar novas funcionalidades na nova branch que criou
+4 - finalizar o trabalho na branch temporária
+5 - git checkout na branch temporária
+6 - git pull
+7 - Mesclar o código da brach temporaria com a brach principal
+8 - git push da branch principal
+===============================================
+

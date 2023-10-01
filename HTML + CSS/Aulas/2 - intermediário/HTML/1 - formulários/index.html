@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários!</title>
+
+    <style>
+        .form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%); */
+        }
+    </style>
+
+</head>
+
+<body style="background-color: l;"">
+
+    <!--Para adicionar um formulário utiliza-se a tag '<form></form>'
+        Todos os dados a serem enviados para o backend serão inseridos
+        dentro da tag. Ex.: '<form>data</form>'
+    
+        Método de envio: 'get/post=""'
+            O método GET vai enviar os dados do formulário através da barra de 
+            pesquisa para algum banco de dados ou programa backend.
+        Armazenamento de dados: 'action=""'
+            O método POST vai enviar os dados do formulário diretamente para 
+            algum arquivo ou para o backend.
+        -->
+
+    <div class="form">
+        <div>
+            <form method="get" action="/data">
+                <input type="text" name="email">
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

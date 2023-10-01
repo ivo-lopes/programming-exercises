@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Input types!</title>
+</head>
+<body>
+
+
+	<!--Recapitulando... a tag para a criação de formulários é a '<form></form>'.
+		Dentro desta, existem o 'method' e o 'action'.
+
+		O 'method' é o método de envio dos dados inseridos nos campos de 'input',
+		podendo ser GET ou POST. 
+			O método GET vai enviar os dados diretamente via url, sendo a opção ideal
+			para campos de pesquisa, por exemplo. Já o método POST, envia os dados 
+			diretamente para o backend.
+		O 'action' é o local de destino dos dados enviados. -->
+
+	<form method="get" action="">
+		
+		E-mail: <input type="text" name="texto"><br>
+		Senha: <input type="password" name="senha"><br><br>
+		<input type="checkbox" name="instrumento" value="instrumento1">Guitarra<br>
+		<input type="checkbox" name="instrumento" value="instrumento2">Baixo<br>
+		<input type="checkbox" name="instrumento" value="instrumento3">Bateria<br><br>
+		<input type="radio" name="audio-preference" value="op1">Fones de ouvido<br>
+		<input type="radio" name="audio-preference" value="op2">Caixas de som<br>
+		<br><br>
+		<input type="submit" name="enviar">
+		<input type="reset">
+
+		<!--<input type="text">			Campo de preenchimento de texto;
+			<input type="password">		Campo de preenchimento de texto escondido;
+			<input type="checkbox">*	Caixas de seleção paralelas;
+			<input type="radio">*		Caixas de seleção única;
+			<input type="submit">*		Botão para enviar os dados do formulário;
+			<input type="reset">*  		Botão de resetar todos os campos do formulário para os valores padrão;
+
+			*:	'name'
+				para todos os tipos de input, fará a categorização dos dados.
+				para 'submit' e 'reset', renomeará os textos internos dos botões;
+				'value'
+				para 'checkbox': define o tipo de dado afirmado pelo usuário;
+		-->
+
+	</form>
+
+</body>
+</html>

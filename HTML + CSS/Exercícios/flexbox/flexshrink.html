@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            border: 1px solid black;
+            max-width: 350px;
+
+        }
+        .item{
+            background: orangered;
+            margin: 5px;
+            font-size: 24px;
+            text-align: center;
+            flex: 1;
+        }
+        .s-1{
+            flex-shrink: 1;
+        }
+        .s-0{
+            flex-shrink: 0;
+        }
+        .fg-1{
+            flex-grow: 1;
+        }
+    </style>
+
+
+</head>
+<body>
+    <h1>flex-shrink 1</h1>
+    <div class="container">
+        <div class="item s-1 fg-1">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+    </div>
+
+    <h1>flex-shrink 1</h1>
+    <div class="container">
+        <div class="item s-1 fg-1">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+    </div>
+
+
+</body>
+</html>

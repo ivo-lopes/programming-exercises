@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Command</title>
+
+    <style>
+        .block {
+            background-color: aquamarine;
+            display: block;
+        }
+
+        .inline {
+            background-color: aquamarine;
+            display: inline;
+        }
+
+        .inlineblock {
+            background-color: aquamarine;
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+        }
+
+        .none {
+            background-color: aquamarine;
+            display: none;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="block">TESTE DISPLAY BLOCK</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="inline">TESTE DISPLAY INLINE</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="inlineblock">TESTE DISPLAY INLINE-BLOCK</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="none">TESTE DISPLAY NONE</div>
+
+    <!-- Comandos display:
+            'display: block;' a visualização toma conta de toda a width da linha, independente do elemento;
+            'display: inline;' - limita a visualização exclusivamente para o elemento dentro da linha;
+            'display: inline-block;' - propriedade de inline, porém podendo modificar as dimensões manualmente;
+            'display: none;' - torna o elemento inexistente na página (não é oculto, é INEXISTENTE).
+        -->
+
+</body>
+
+</html>

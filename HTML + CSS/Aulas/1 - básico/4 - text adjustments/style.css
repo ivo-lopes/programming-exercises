@@ -1,0 +1,71 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Red Hat Mono', monospace;
+    }
+
+.title{
+    text-align: center;
+    background-color:rgb(226, 174, 126);
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.text{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: #594236;
+    text-indent: 30px;
+    font-weight: 500;
+}
+
+#bottom_info{
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.link{
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    color: #594236;
+    background-color: rgb(226, 174, 126);
+    border-radius: 6px;
+    width: 140px;
+    height: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+.link:hover{
+    background-color: rgb(224, 182, 142);
+    color: #926e5a;
+}
+.link:active{
+    background-color: #926e5a;
+    color: rgb(224, 182, 142);
+}
+/* .link:visited{
+    background-color: #919191;
+    color: rgb(255, 233, 212);
+} */
+
+
+/* ~comandos básicos de texto~
+    'text-decoration'
+    'text-indent'
+    'text-align'
+    'font-size'
+    'letter-spacing'
+    'line-height'
+    'word-spacing'
+    'text-shadow'
+    'font-style'
+    'font-weight'
+    */

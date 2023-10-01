@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+}
+#container{
+    font-family: 'Ubuntu Mono', monospace;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 800px;
+    height: 400px;
+    background-image: url(images/backgorund.png);
+    background-size: cover;    
+}
+
+h1{
+    font-size: 40px;
+    color: black;
+    margin-left: 30px;
+}
+
+hr{
+    width: 30%;
+    color: white;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+ul{
+    margin-left: 50px;
+    padding: 0;
+    margin-top: -5px;
+}
+
+li{
+    color: black;
+    font-size: 25px;
+    margin: 0px;
+    list-style-position: inside;
+}
+
+
+.whatsapp{
+    list-style-image:url(images/whatsapp.svg);
+    line-height: 50px;
+}
+.instagram{
+    list-style-image:url(images/instagram.svg);  
+}
+.discord{
+    list-style-image:url(images/discord.svg);
+}
+.spotify{
+    list-style: none;
+}
+
+#spotify-code{
+    height: 75px;
+    margin-left: -13px;
+}

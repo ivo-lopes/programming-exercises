@@ -1,0 +1,121 @@
+/*Color palette:
+  background: #060817
+  letters: #e0c98e
+  font: #feffff
+  boxes: #64646b
+  others: #34353c
+  others: #514b42
+  */
+
+
+*{
+    margin: 0;
+    font-family: 'Vollkorn', serif;
+}
+
+body{
+    background-color: black;
+    color: #feffff;
+}
+
+header{
+    background-color: #e0c98e;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header-logo{
+    position: absolute;
+    left: 10%;
+    height: 70%;
+}
+
+ul{
+    list-style: none;
+    position: absolute;
+    right: 10%;
+}
+
+li{
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;    
+}
+
+.menu-option{
+    color: #feffff;
+    background-color: #514b42;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.menu-option:hover{
+    background-color: #514b42b4;
+    color: #feffff;
+}
+
+.menu-option:active{
+    background-color: #feffff;
+    color: #514b42;
+}
+
+.bg{
+    position: absolute;
+    background-image: url(./images/advocacia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+}
+
+section{
+    position: absolute;
+    margin: auto;
+    background-color: #e0c98e50;
+    width: 80%;
+    height: 90%;
+    left: 10%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.title-container{
+    position: absolute;
+    background-color: #e0c98e50;
+    height: 80px;
+    width: 60%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.title{
+    color: #feffff;
+    margin-left: 40px;
+
+}
+
+.content{
+    position: relative;
+    background-color: #e0c98e50;
+    height: 80%;
+    width: 90%;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 10px;
+}
+
+
+
