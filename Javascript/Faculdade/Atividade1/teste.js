@@ -1,0 +1,15 @@
+var lamp1, lamp2, lamps;
+lamp1 = lamp2 = '0';
+lamps = lamp1 + lamp2;
+acender(lamps);
+lamp1 = '1';
+lamps = lamp1 + lamp2;
+acender(lamps);
+lamp1 = '0';
+lamp2 = '1';
+lamps = lamp1 + lamp2;
+acender(lamps);
+lamp1 = '1';
+lamp2 = '1';
+lamps = lamp1 + lamp2;
+acender(lamps);

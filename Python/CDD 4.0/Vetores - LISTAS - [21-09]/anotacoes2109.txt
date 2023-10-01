@@ -1,0 +1,37 @@
+lista_compras = ['banana', 'laranja', 'maçã']
+for compras in lista_compras:
+    print(compras)
+print(40*'=')
+
+lista_compras = ['banana', 'laranja', 'maçã']
+lista_compras.append('maracujá')
+for compras in lista_compras:
+    print(compras)
+print(40*'=')
+
+lista_compras = ['banana', 'laranja', 'maçã']
+lista_compras.append('maracujá')
+lista_compras.insert(1,'chuchu')
+for compras in lista_compras:
+    print(compras)
+print(40*'=')
+
+lista_compras = ['banana', 'laranja', 'maçã']
+lista_compras.append('maracujá')
+lista_compras.insert(1,'chuchu')
+del lista_compras[3]
+for compras in lista_compras:
+    print(compras)
+print(40*'=')
+
+lista_compras = ['banana', 'laranja', 'maçã']
+lista_compras.append('maracujá')
+lista_compras.insert(1, 'chuchu')
+del lista_compras[3]
+for compras in lista_compras:
+    print(compras)
+print(40*'=')
+item = lista_compras.pop(-1)
+print(f'Item popado: {item}')
+for compras in lista_compras:
+    print(compras)

@@ -1,0 +1,65 @@
+ex1
+
+from random import *
+vetor = []
+for x in range(20):
+    vetor.append(randint(1, 10))
+print(vetor)
+for numeros in range(19, -1, -1):
+    print(vetor[numeros])
+
+
+
+ex2/3
+
+user = []
+password = []
+confirm = 0
+for login in range(3):
+    user.append(input(f'Usuário[{login}]: '))
+    password.append(input(f'Senha[{login}]: '))
+print('='*40)
+while True:
+    user_confirm = input('Usuário: ')
+    user_password = input('Senha: ')
+    for x in range(3):
+        if user[x] == user_confirm and password[x] == user_password:
+            confirm = 1
+    if confirm == 1:
+        print('Login bem-sucedido.')
+        break
+    else:
+        print('Login incorreto e/ou não encontrado.')
+        continue
+
+
+
+ex4
+
+from random import *
+numero = []
+cont = 0
+for n in range(30):
+    numero.append(randint(1, 10))
+print(numero)
+busca = int(input('Digite um número de 1 a 10 para saber sua recorrência: '))
+for x in range(30):
+    if numero[x] == busca:
+        cont += 1
+print(f'O número {busca} aparece {cont} vez(es).')
+
+
+
+ex5
+
+nome = []
+for x in range(5):
+    nome.append(input(f'{x}. Digite um nome: '))
+print(f'*'*40,
+      f'\nOrdem NORMAL: ')
+for nomes in range(5):
+    print(nome[nomes])
+print(f'*'*40,
+      f'\nOrdem INVERSA: ')
+for nomes in range(4, -1, -1):
+    print(nome[nomes])

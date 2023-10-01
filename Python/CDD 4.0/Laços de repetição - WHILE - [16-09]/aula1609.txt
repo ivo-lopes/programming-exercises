@@ -1,0 +1,118 @@
+cont1 = 0
+for x in range(10):
+    valor = int(input('Digite um valor: '))
+    if 10 <= valor <= 20:
+        cont1 += 1
+print(f'Dentro do intervalo de 10 a 20 estão {cont1} números.\nFora do intervalo de 10 a 20 estão {10-cont1} números.')
+
+
+------------------------------------------------------------
+
+
+cont1 = 0
+for x in range(10):
+    valor = int(input('Digite um valor: '))
+    cont1 += valor
+media = cont1/10
+print(f'A soma de todos os valores foi {cont1}.\nA média dos números digitados foi {media}')
+
+
+------------------------------------------------------------------------------------------
+
+
+alunos = int(input('Digite a quantidade de alunos para fazer a média aritmetica da sala: '))
+cont = 0
+cont1 = 0
+while alunos > cont:
+    nota = float(input('Digite um número: '))
+    cont1 += nota
+    cont += 1
+media = cont1/alunos
+print(f'A soma das notas foi {cont1}.\nA média da sala foi {media}.')
+
+
+--------------------------------------------------------------------------------------------
+
+
+n1 = int(input('Digite o primeiro número: '))
+while n1 == 0 or n1 < 0:
+    print('Digite um número diferente de 0 e positivo.')
+    n1 = int(input('Digite novamente o primeiro número: '))
+
+n2 = int(input('Digite o segundo número: '))
+while n2 == 0 or n2 < 0:
+    print('Digite um número diferente de 0 e positivo.')
+    n2 = int(input('Digite novamente o segundo número: '))
+
+divisao = n1/n2
+print(f'{n1} / {n2} =', divisao)
+
+
+
+-----------------------------------------------------------------------------------
+
+
+
+senha = 'ivonaldo123'
+cont = 0
+cont_tent = 2
+senha1 = input('Digite a senha: ')
+while senha1 != senha:
+    senha1 = input(f'Senha incorreta. {cont_tent} tentativa(s) restante(s). Tente novamente: ')
+    cont += 1
+    cont_tent -= 1
+    if cont == 2 or senha == senha1:
+        break
+if senha1 == senha:
+    print('Senha correta. Acessando o sistema...')
+    input('Aperte para continuar...')
+else:
+    print('Limite excedido. Usuário bloqueado.')
+
+
+
+------------------------------------------------------------------------------------
+
+
+
+continuar = 's'
+while continuar == 's':
+    n1 = float(input('Digite a primeira nota: '))
+    while n1 < 0 or n1 > 10:
+        print('Nota inválida.')
+        n1 = float(input('Digite novamente: '))
+    n2 = float(input('Digite a segunda nota: '))
+    while n2 < 0 or n2 > 10:
+        print('Nota inválida.')
+        n2 = float(input('Digite novamente: '))
+    media = (n1+n2)/2
+    print(f'Média: {media}')
+    continuar = input('Digite s para recomeçar e n para encerrar o programa: ')
+    if continuar == 'n':
+        input('Programa encerrado. Aperte enter para finalizar...')
+        break
+
+n1 = float(input('Digite a primeira nota: '))
+while n1 < 0 or n1 > 10:
+    print('Nota inválida.')
+    n1 = float(input('Digite novamente: '))
+    if n1 >= 0 and n1 <= 10:
+        break
+n2 = float(input('Digite a segunda nota: '))
+while n2 < 0 or n2 > 10:
+    print('Nota inválida.')
+    n2 = float(input('Digite novamente: '))
+    if n2 >= 0 and n2 <= 10:
+        break
+media = (n1+n2)/2
+print(f'Média: {media}')
+
+
+
+-----------------------------------------------------------------------------------
+
+
+
+
+
+

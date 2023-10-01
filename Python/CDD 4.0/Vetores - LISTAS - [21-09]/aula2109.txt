@@ -1,0 +1,84 @@
+ARRAYS
+
+Ciência de dados: NuPy, Panders
+
+String - concatenação de caracteceres:
+
+JOAO
+0123
+
+For - laço de repetição com limite de repetições préviamente definido
+
+
+
+
+
+
+
+
+Variáveis compostas:
+
+- Vetores são IMUTÁVEIS!!!;
+- Vetores só aceitam um tipo específico por vez;
+- Aumentam a eficiencia do código;
+
+
+
+
+
+
+
+
+lista_compras = ['', '', '']
+lista_compras = []
+lista_compras = ['banana', 'laranja', 'maçã']
+
+
+
+
+
+
+Métodos para utilizar nas listas:
+
+.append() - Adiciona um item ao final da lista
+.insert() - Insere um item 
+del - 
+.remove() - Remove um ite baseado no seu valor e não na sua posição
+.pop() - Copia um item da lista e atribui para outra variável
+
+
+
+
+
+Toda vez que houver a necessidade de se percorrer um vetor, utiliza-se FOR:
+EX.:
+
+qntd = int(input('Quantos alunos tem na sala? '))
+alunos = []
+for _ in range(qntd):
+    alunos.append(input('Digite o nome do aluno: '))
+alunos.sort()
+for i in range(qntd):
+    print(f'{i}. {alunos[i]}')
+
+pesquisa = input('Pesquisa: ')
+for s in range(qntd):
+    if pesquisa == alunos[s]:
+        print('aluno encontrado!')
+
+
+
+
+sala = []
+nota = 0
+for x in range(5):
+    sala.append(int(input('Digite uma nota: ')))
+    nota += sala[x]
+media = nota/5
+print(f'Média da turma: {media}')
+for i in range(5):
+    if sala[i] >= media:
+        print('Aprovado')
+    else:
+        print('Reprovado')
+

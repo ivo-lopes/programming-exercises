@@ -1,0 +1,10 @@
+Olá, Mundo! 
+Meu nome é Ivo 
+Testando a funcionalidade de log de hora e data 16:38:14 - 01/11/2022 
+formatado bunitin (16:39:03 - 01/11/2022) 
+(16:39:50 - 01/11/2022) Teste 
+(16:41:03 - 01/11/2022) testand 
+(16:41:06 - 01/11/2022) ta parecendo um chat agora4 
+(16:41:10 - 01/11/2022) hehehe 
+(16:41:11 - 01/11/2022) pqp sou incrivel 
+(16:41:24 - 01/11/2022) muahahaha 

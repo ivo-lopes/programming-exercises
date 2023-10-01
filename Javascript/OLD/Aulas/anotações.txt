@@ -1,0 +1,66 @@
+Antes de qualquer coisa... A ORDEM IMPORTA!
+
+
+
+- Alert: exibe um alerta na página podendo conter um texto ou outros elementos;
+
+        alert("Hello World!")
+
+
+- Comentários: dentro do código podem ser feitos dois tipos de comentários, sendo um deles por
+                linha e o outro por bloco.
+        
+        //comentários por linha
+
+        /*  espaço pra comentários
+            espaço pra comentários
+            espaço pra comentários  */
+
+
+- Tipos de dados:
+
+    - String (qualquer tipo de caractere dentro de aspas - pode ser letras, palavras, números, simbolos, qualquer coisa);
+
+    - Números (a diferença de um número dentro de uma string para um número real, é que é possível trabalhar com os valores declarados.
+               Por exemplo, ("1" + "1") = 11   |   enquanto 1+1 = 2. )
+
+    - Indefinido (quando o valor de uma variável é desconhecido.)
+
+    - Nulo (define a certeza da ausência de valor para uma variável.)
+
+    - Booleanos (permite fazer operações lógicas a partir de valores verdadeiros ou falsos)
+
+
+- Operadores Aritméticos:
+        - Adição (+)
+        - Subtração (-)
+        - Multiplicação (*)
+        - Divisão (/)
+        - Módulo (%) {faz a divisão com quociente inteiro e aprensenta o resto da divisão como resposta}
+        - Incremento (++) {incrementa um número em 1}
+        - Decremento (--) {decrementa um número em 1}
+
+
+- Atribuições:
+    - (=)   |    x = y    |  x = x + y
+    - (-=)  |    x -= y   |   x = x - y
+    - (*=)  |    x *= y   |   x = x * y
+    - (/=)  |    x /= y   |   x = x / y
+    - (%=)  |    x %= y   |   x = x % y
+
+
+- Operadores Comparativos:
+    - == (igual a)
+    - === (valor igual e igual)
+    - != (diferente de)
+    - !== (não igual ou não igual)
+    - > (maior que)
+    - < (menor que)
+    - >= (maior ou igual a)
+    - <= (menor ou igual a)
+
+
+- Operadores ternários
+    
+    - um substitutoa capado do "IF/else" que pode ser escrito na mesma linha, ideal 
+        para códigos mais simples.

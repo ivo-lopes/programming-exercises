@@ -1,0 +1,5 @@
+print('Vou somar dois valores para você! Me informe dois números inteiros:')
+primeiro = float(input('Qual o primeiro número? '))
+segundo = float(input('E o segundo? '))
+resultado = float(primeiro+segundo)
+print (f'A soma entre {primeiro} e {segundo} vale {resultado}')

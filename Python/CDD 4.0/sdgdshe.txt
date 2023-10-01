@@ -1,0 +1,21 @@
+from functions import *
+
+alunos = []
+medias = []
+
+cont = 1
+for x in range(2):
+    nome = input(f'{cont}. Nome: ')
+    n1 = int(input(f'{cont}. n1: '))
+    n2 = int(input(f'{cont}. n2: '))
+    calc_media(nome, n1, n2)
+    cont += 1
+
+
+
+import main
+
+def calc_media(nome, n1, n2):
+    media = (n1+n2)/2
+    main.alunos.append(nome)
+    main.medias.append(media)

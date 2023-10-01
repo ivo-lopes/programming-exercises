@@ -1,0 +1,83 @@
+nome = input('Digite seu nome: ')
+numero = 0
+for x in nome:
+    print(x)
+    if x != ' ':
+        numero += 1
+print(f'{nome} tem {numero} letras.')
+
+
+
+------------------------------------------
+
+n1 = int(input('Digite o começo do intervalo: '))
+n2 = int(input('Digite o final do intervalo: '))
+n2 += 1
+numeros_pares = 0
+numeros_impares = 0
+
+print('Números PARES:')
+for x in range(n1, n2):
+    if x % 2 == 0:
+        numeros_pares += 1
+        print(x)
+print('Números ÍMPARES:')
+for x in range(n1, n2):
+    if x % 2 != 0:
+        numeros_impares += 1
+        print(x)
+input('Aperte para continuar...')
+print(f'NÚMEROS PARES: {numeros_pares}')
+print(f'NÚMEROS ÍMPARES: {numeros_impares}')
+
+
+
+------------------------------------------------
+
+
+n1 = int(input('Digite um número inteiro: '))
+fator = 0
+print('TABUADA:')
+for x in range(0, 11):
+    print(f'{n1} * {fator} =', n1*fator)
+    fator += 1
+
+
+------------------------------------------------
+
+
+
+for x in range(10, 0, -1):
+    print(x)
+
+
+------------------------------------------------
+
+
+
+n1 = int(input('Digite um valor inteiro positivo: '))
+while n1 < 1:
+    n1 = int(input('Valor inválido. Digite novamente: '))
+n1 += 1
+for x in range(1, n1):
+    print(x)
+
+
+
+------------------------------------------------
+
+
+
+negativo = 0
+for x in range(9):
+    n1 = int(input('Digite um valor: '))
+    if n1 < 0:
+        negativo += 1
+print(f'NEGATIVOS: {negativo}')
+
+
+
+----------------------------------------------------
+
+
+
